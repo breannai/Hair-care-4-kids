@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hair Care for Kids, Inc.</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Optional fancy + clean font combo (keep if you already added fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER / BRAND -->
+  <header class="site-header" id="top">
+    <div class="brand-block">
+      <img class="logo" src="logo.png" alt="Hair Care for Kids, Inc. logo" />
+      <h1 class="brand-title">Hair Care for Kids, Inc.</h1>
+
+      <!-- Social icons (no extra files needed: inline SVG) -->
+      <div class="social-icons" aria-label="Social links">
+        <a href="https://instagram.com/hair_care_4_kids" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </a>
+
+        <a href="https://tiktok.com/@haircare4kids" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M14 3v11.2a3.8 3.8 0 1 1-3-3.7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 3c.6 3.4 2.9 5.6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAV (centered under brand) -->
+  <nav class="navbar" aria-label="Main navigation">
+    <ul>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- SLIDESHOW (edge-to-edge) -->
+<section class="hero-slideshow" aria-label="Hair Care for Kids photo slideshow">
+  <div class="slides">
+    <img class="slide active" src="images/slideshow/slide1.jpg" alt="Students smiling at Hair Care for Kids event" />
+    <img class="slide" src="images/slideshow/slide2.jpg" alt="Students practicing hairstyling skills" />
+    <img class="slide" src="images/slideshow/slide3.jpg" alt="Instructor guiding a student during practice" />
+    <img class="slide" src="images/slideshow/slide4.jpg" alt="Student practicing hair care on a model" />
+    <img class="slide" src="images/slideshow/slide5.jpg" alt="Group photo during program session" />
+    <img class="slide" src="images/slideshow/slide6.jpg" alt="Students seated during a workshop" />
+    <img class="slide" src="images/slideshow/slide7.jpg" alt="Students working together on hair skills" />
+    <img class="slide" src="images/slideshow/slide8.jpg" alt="Hands-on hair care learning session" />
+  </div>
+
+  <div class="slide-overlay"></div>
+
+  <div class="slide-caption">
+    <p class="slide-kicker">Real programs. Real confidence.</p>
+    <h2 class="slide-title">Hair skills that build pride, self-care, and creativity.</h2>
+  </div>
+</section>
+
+
+  <!-- HERO (keep your current gradient hero vibe + floating cards) -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="tagline">Hair Care for Kids, Inc.</p>
+        <h1>Hair care education that helps kids learn, grow, and feel confident.</h1>
+        <p class="hero-subtitle">
+          Afterschool programs (Oct–Jun), Glam Camp (Jul–Aug), and sponsored workshops serving Newark & Jersey City, NJ.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="cta-button primary">Sign Up for a Program</a>
+          <a href="#contact" class="cta-button secondary">Donate</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="floating-card card-1">
+          <span class="card-label">Hair Care Education</span>
+          <div class="card-blob blob-pink"></div>
+        </div>
+
+        <div class="floating-card card-2">
+          <span class="card-label">Confidence & Self-Care</span>
+          <div class="card-blob blob-blue"></div>
+        </div>
+
+        <div class="floating-card card-3">
+          <span class="card-label">Hands-On Learning</span>
+          <div class="card-blob blob-yellow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- PROGRAMS & SERVICES -->
+    <section id="programs" class="programs-section reveal">
+      <h2 class="section-title"><span class="title-icon">✨</span>Programs & Services</h2>
+      <p class="programs-intro">
+        Programs designed to educate, empower, and build confidence in children through hands-on hair care learning.
+      </p>
+
+      <div class="programs-grid">
+
+        <!-- Afterschool Program -->
+        <article class="program-card">
+          <div class="program-icon">🏫</div>
+          <h3>Afterschool Hair Care Program (Oct–Jun)</h3>
+          <p class="program-meta">Ages 8–17 · 2-hour sessions · In-person</p>
+
+          <ul class="program-mini">
+            <li><strong>What kids learn:</strong> Hair care routines, styling skills, and self-care techniques.</li>
+            <li><strong>Where:</strong> 60 Park Pl, Suite 405, Newark, NJ + partner schools (ex: P.S. 15 Jersey City).</li>
+            <li><strong>Transportation:</strong> Availability varies by location (inquire).</li>
+            <li><strong>Pricing:</strong> Varies by location + custom options available.</li>
+          </ul>
+
+          <div class="program-actions">
+            <a href="#contact" class="cta-button primary">Sign Up</a>
+            <a href="#contact" class="cta-button secondary">Donate</a>
+          </div>
+        </article>
+
+        <!-- Glam Camp -->
+        <article class="program-card">
+          <div class="program-icon">🎪</div>
+          <h3>Glam Camp (Jul–Aug)</h3>
+          <p class="program-meta">Ages 8–17 · Classroom + hands-on · In-person</p>
+
+          <ul class="program-mini">
+            <li><strong>What kids learn:</strong> Hair maintenance, styling, hair types & textures, and confidence-building self-care.</li>
+            <li><strong>Showcase finale:</strong> Ends with a hair show where students showcase their skills.</li>
+            <li><strong>Extras:</strong> Refreshments offered.</li>
+            <li><strong>Pricing & schedule:</strong> Customized options available (inquire).</li>
+          </ul>
+
+          <div class="program-actions">
+            <a href="#contact" class="cta-button primary">Sign Up</a>
+            <a href="#contact" class="cta-button secondary">Donate</a>
+          </div>
+        </article>
+
+        <!-- Workshops -->
+        <article class="program-card">
+          <div class="program-icon">📍</div>
+          <h3>Sponsored Workshops & Pop-Up Programs</h3>
+          <p class="program-meta">Schools · Community Centers · Care Management Orgs</p>
+
+          <ul class="program-mini">
+            <li><strong>What it is:</strong> Pop-up workshops sponsored/booked by organizations.</li>
+            <li><strong>Topics:</strong> Hair care skills, styling basics, self-care education.</li>
+            <li><strong>Great for:</strong> Youth groups, school enrichment, community events, wellness programming.</li>
+            <li><strong>Pricing:</strong> Custom by location + group size.</li>
+          </ul>
+
+          <div class="program-actions">
+            <a href="#contact" class="cta-button primary">Request</a>
+            <a href="#contact" class="cta-button secondary">Donate</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section reveal">
+      <h2 class="section-title"><span class="title-icon">💜</span>About Hair Care for Kids</h2>
+
+      <p>
+        Hair Care for Kids, Inc. is a nonprofit organization dedicated to empowering children by teaching them essential
+        skills and knowledge to care for their own hair. We believe that hair care is more than grooming — it is a pathway
+        to self-esteem, cultural identity, and personal growth.
+      </p>
+
+      <p>
+        Our mission is to educate and inspire children of all backgrounds to develop healthy hair care habits, boost their
+        self-confidence, and foster a positive self-image. We are committed to creating a nurturing and inclusive environment
+        where every child feels valued and supported in their hair care journey.
+      </p>
+
+      <p>
+        Hair Care for Kids collaborates with parents, caregivers, schools, and community partners to ensure that our program
+        reaches as many children as possible. By promoting awareness of diverse hair types and textures, we aim to break down
+        stereotypes, embrace inclusivity, and empower children to celebrate their unique beauty.
+      </p>
+
+      <p>
+        Together with dedicated volunteers and generous donors, we strive to make a lasting impact by equipping children with
+        knowledge and skills that support a lifetime of healthy hair practices. Join us in our mission to empower children —
+        one strand at a time.
+      </p>
+
+      <div class="involved-buttons" style="margin-top:18px;">
+        <a href="#contact" class="cta-button primary">Sign Up for a Program</a>
+        <a href="#contact" class="cta-button secondary">Donate</a>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="how-section reveal">
+      <h2 class="section-title"><span class="title-icon">🧩</span>How It Works</h2>
+      <p class="how-intro">
+        Getting started is simple. Choose a program, reach out, and we’ll guide you through the next steps.
+      </p>
+
+      <div class="how-steps">
+        <article class="how-step">
+          <div class="how-number">1</div>
+          <h3>Inquire</h3>
+          <p>Use the contact form to tell us what you’re interested in: Afterschool, Glam Camp, or a Sponsored Workshop.</p>
+        </article>
+
+        <article class="how-step">
+          <div class="how-number">2</div>
+          <h3>Confirm Program Fit</h3>
+          <p>We’ll confirm location, age group (8–17), schedule, and any transportation availability. Pricing is customized.</p>
+        </article>
+
+        <article class="how-step">
+          <div class="how-number">3</div>
+          <h3>Attend & Learn</h3>
+          <p>Students participate in hands-on learning focused on hair care education, styling techniques, and self-care.</p>
+        </article>
+
+        <article class="how-step">
+          <div class="how-number">4</div>
+          <h3>Progress & Celebrate</h3>
+          <p>Students build skills over time. Glam Camp ends with a hair showcase. Our programs build confidence and pride.</p>
+        </article>
+      </div>
+
+      <div class="how-cta">
+        <a href="#contact" class="cta-button primary">Sign Up for a Program</a>
+        <a href="#contact" class="cta-button secondary">Donate</a>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials-section reveal">
+      <h2 class="section-title"><span class="title-icon">🗣️</span>What Families & Partners Say</h2>
+      <p class="testimonials-intro">
+        Real feedback helps families feel confident. These can be updated anytime as you collect reviews.
+      </p>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <p class="testimonial-quote">
+            “My child is so much more confident. They’re learning how to take care of their hair
+            and they actually look forward to it now.”
+          </p>
+          <p class="testimonial-name">Parent / Caregiver</p>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-quote">
+            “The program is organized, engaging, and age-appropriate. Our students loved the hands-on learning.”
+          </p>
+          <p class="testimonial-name">School Partner</p>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-quote">
+            “I love that it teaches self-care and confidence. The kids leave proud of what they can do.”
+          </p>
+          <p class="testimonial-name">Community Partner</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- MEDIA (Instagram embeds + featured last reel bigger) -->
+    <section id="media" class="media2">
+      <h2 class="section-title"><span class="title-icon">🎬</span>Media Highlights</h2>
+      <p class="media2-intro">Photos and videos from programs, workshops, and student showcases.</p>
+
+      <div class="media2-grid">
+
+        <div class="tile ig reveal">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/CzxGfu4NWWl/"
+            data-instgrm-version="14"></blockquote>
+        </div>
+
+        <div class="tile ig reveal">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/DOY_ohdkzwD/"
+            data-instgrm-version="14"></blockquote>
+        </div>
+
+        <!-- Featured bigger tile -->
+        <div class="tile ig reveal featured">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/DOJPA5cgRxG/"
+            data-instgrm-version="14"></blockquote>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section reveal">
+      <h2 class="section-title"><span class="title-icon">❓</span>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">Do you teach adults as well?</button>
+        <div class="faq-answer">
+          <p>No. Hair Care for Kids, Inc. programs are designed specifically for children ages 8–17.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Where are you located?</button>
+        <div class="faq-answer">
+          <p>Our primary location is 60 Park Pl, Suite 405, Newark, NJ. We also offer programs and partnerships in Jersey City, NJ.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Do children need prior hair experience?</button>
+        <div class="faq-answer">
+          <p>No experience is required. Our programs are beginner-friendly and tailored to meet children where they are.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Are programs open to the public or only schools?</button>
+        <div class="faq-answer">
+          <p>We offer both public programs and school-based programs. Some school programs are only for enrolled students at partner schools.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Is transportation provided?</button>
+        <div class="faq-answer">
+          <p>Transportation availability varies by program and location. Please contact us directly to inquire.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">How do I sign my child up?</button>
+        <div class="faq-answer">
+          <p>Use the contact form below or email us directly. We’ll respond with program details and next steps.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT (Formspree) -->
+    <section id="contact" class="contact-section reveal">
+      <h2 class="section-title"><span class="title-icon">📩</span>Contact</h2>
+      <p>
+        Email: <a href="mailto:haircare4kidsinc@gmail.com">haircare4kidsinc@gmail.com</a> · Phone: <a href="tel:+12014239902">201-423-9902</a><br />
+        Serving Newark & Jersey City, NJ
+      </p>
+
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/xqarndlq"
+        method="POST"
+      >
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+        <input type="hidden" name="_subject" value="New Hair Care for Kids Inquiry" />
+        <input type="hidden" name="_next" value="thankyou.html" />
+
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" name="name" required />
+        </div>
+       
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input id="phone" type="text" name="phone" required />
+        </div>
+       
+        <div class="form-row">
+          <label for="address">Address</label>
+          <input id="address" type="text" name="address" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required />
+        </div>
+
+        <div class="form-row">
+          <label for="interest">I’m interested in</label>
+          <select id="interest" name="interest" required>
+            <option value="">Select one</option>
+            <option>Afterschool Hair Care Program (Oct–Jun)</option>
+            <option>Glam Camp (Jul–Aug)</option>
+            <option>Sponsored Workshops & Pop-Ups</option>
+            <option>Donate / Volunteer / Partner</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <div class="char-count" id="charCount">0 / 500</div>
+        </div>
+
+        <button type="submit">Send Message</button>
+        <p class="small-note">We’ll get back to you as soon as possible.</p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>Hair Care for Kids, Inc.</strong> · Registered 501(c)(3) nonprofit</p>
+    <p>
+      <a href="mailto:haircare4kidsinc@gmail.com">haircare4kidsinc@gmail.com</a> ·
+      <a href="tel:+12014239902">201-423-9902</a>
+    </p>
+    <p style="opacity:0.9;">© <span id="year"></span> Hair Care for Kids, Inc. All rights reserved.</p>
+  </footer>
+
+  <!-- Your site JS -->
+  <script src="script.js"></script>
+
+  <!-- Instagram embed script (ONLY ONCE) -->
+  <script async src="//www.instagram.com/embed.js"></script>
+
+
+</body>
+</html>
